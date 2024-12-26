@@ -31,36 +31,27 @@ This project focuses on building and deploying an image classification model usi
 ### Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/image-classification.git
+    git clone https://github.com/Vishnu-E/image_classification
     ```
-2. Navigate to the project directory:
-    ```sh
-    cd image-classification
+
     ```
-3. Install the required packages:
+2. Install the required packages:
     ```sh
     pip install -r requirements.txt
     ```
 
 ## Usage
 
-### Data Preprocessing
-Run the data preprocessing script to prepare the dataset:
-```sh
-python src/data_preprocessing.py
-```
+ ```sh
+    uvicorn app.Main:app --reload
+    ```
 
-### Model Training
-Train the image classification model:
-```sh
-python src/model_training.py
-```
+    copy the link in chrome
 
-### Model Evaluation
-Evaluate the trained model:
-```sh
-python src/model_evaluation.py
-```
+    add '/docs' (eg: http://127.0.0.1:8000/docs) to run the application.
+
+    click try it out and upload the ophoto and execute
+
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
